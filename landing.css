@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+.container{
+    height:100vh;
+    width:100%;
+    background-image:url('../car.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    
+}
+.nav-bar .title{
+    color:yellow;
+    font-size: 30px;
+    
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu li a{
+    text-decoration:none;
+    color:aqua;
+   font-size: 20px;
+   font-weight: 600;
+    margin-left: 25px;
+    transition: .2s ease;
+}
+.menu li a:hover{
+    color:yellow;
+    padding:10px 20px;
+    border:3px solid white;
+}
+.Text{
+    
+   height:400px;
+   padding:70px;
+ 
+}
+.title-1{
+    font-size: 56px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+   -webkit-background-clip: text;
+   color: transparent;
+   -webkit-text-stroke: 1px white;
+}
+.title-2{
+    font-size: 40px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+
+}
+.Text p{
+    padding-top:25px;
+    font-size: 30px;
+  color:aquamarine;
+}
+.Text button{
+    height:40px;
+    font-size: 25px;
+    color:skyblue;
+    background: rgb(85, 85, 150);
+    -webkit-text-stroke: 0.5px white;
+    padding:5px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    transition: .4s ease;
+    cursor:pointer;
+}
+    
+   
+
